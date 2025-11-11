@@ -18,13 +18,84 @@
     <div class="container">
         <ul>
             <li><a href="index.html" class="main">главная</a></li>
-            <li><a href="shop.html" class="shop">заказ</a></li>
-            <li><a href="job.html" class="job">работа</a></li>
+            <li><a href="shop.html" class="shop1">заказ</a></li>
+            <li><a href="job.html" class="job">отзыв</a></li>
             <li><a href="1002.html" class="zadacha">задача</a></li>
         </ul>
     </div>
 </nav>
 
+<div class="table-wrap">
+    <table class="pricing" aria-label="Таблица товаров">
+      <colgroup>
+        <col style="width:50%">
+        <col style="width:50%">
+        <col style="width:50%">
+      </colgroup>
+
+      <tr>
+        <th>
+          <img src="./img/_ (13) 1.png" alt="Букет 1" class="item-photo">
+        </th>
+        <th>
+          <img src="./img/🍵 _ edited by me 1.png" alt="Букет 2" class="item-photo">
+        </th>
+        <th>
+          <img src="./img/‧₊˚❀༉‧₊˚_ 1.png" alt="Букет 3" class="item-photo">
+        </th>
+      </tr>
+
+      <tr>
+        <td class="caption" colspan="1">цена 5000</td>
+        <td class="caption" colspan="1">цена 5000</td>
+        <td class="caption" colspan="1">цена 5000</td>
+      </tr>
+
+      <tr>
+        <td class="subtext" colspan="1">
+          открытка +150р<br/> доставка +500р
+        </td>
+        <td class="subtext" colspan="1">
+          открытка +150р<br/> доставка +800р
+        </td>
+        <td class="subtext" colspan="1">
+          открытка +150р<br/> доставка +500р
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="container">
+    <h1 class="h1_1">ОФОРМИТЬ ЗАКАЗ</h1>
+    <form action="#" method="post" aria-label="Форма заказа">
+      <div class="field">
+        <label for="name">имя</label>
+        <input type="text" id="name" name="name" placeholder="Введите имя" required />
+      </div>
+
+      <div class="field">
+        <label for="surname">фамилия</label>
+        <input type="text" id="surname" name="surname" placeholder="Введите фамилию" required />
+      </div>
+
+      <div class="field">
+        <label for="phone">номер телефона</label>
+        <input type="tel" id="phone" name="phone" placeholder="Введите номер телефона" required />
+      </div>
+
+      <div class="field">
+        <label for="email">электронная почта</label>
+        <input type="email" id="email" name="email" placeholder="@example.com" required />
+      </div>
+
+      <div class="field">
+        <label for="date">дата отправки</label>
+        <input type="date" id="date" name="date" required />
+      </div>
+
+      <button class="submit" type="submit">отправить форму</button>
+    </form>
+  </div>
 
 </body>
 </html>
