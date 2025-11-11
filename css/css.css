@@ -363,38 +363,38 @@ input[type="text"]{
     color: #1a1a1a;
 }
     
-    .field {
-      width: 100%;
-      padding: 12px;
-      font-size: 18px;
-      border: 3px solid #a24a53;
-      border-radius: 4px;
-      margin-bottom: 14px;
-      outline: none;
-    }
+.field {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    outline: none;
+}
 
-    .textarea {
-      height: 120px;
-      resize: vertical;
-      line-height: 1.4;
-    }
-    .button {
-      display: inline-block;
-      padding: 14px 20px;
-      font-size: 20px;
-      color: #fff;
-      background: #7a2a2a;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      text-transform: none;
-    }
-    .error {
-      color: #b00020;
-      font-size: 14px;
-      margin-top: -8px;
-      margin-bottom: 8px;
-    }
+.textarea {
+    height: 120px;
+    resize: vertical;
+    line-height: 1.4;
+}
+
+.button {
+    display: inline-block;
+    padding: 14px 20px;
+    font-size: 20px;
+    color: #fff;
+    background: #7a2a2a;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: none;
+}
+
+.error {
+    color: #b00020;
+    font-size: 14px;
+    margin-top: -8px;
+    margin-bottom: 8px;
+}
 
 
 
