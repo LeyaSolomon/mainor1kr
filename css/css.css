@@ -11,6 +11,15 @@ body{
     display: flex;
 }
 
+.main1{
+    color:#B14048;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 18%;
+    padding-top: 15px;
+    display: flex;
+}
+
 .shop1{
     color:#B14048;
     text-decoration: none;
@@ -21,7 +30,7 @@ body{
 }
 
 .shop{
-    color:#B14048;
+    color:#111010;
     text-decoration: none;
     font-size: 30px;
     padding-left: 37%;
@@ -38,6 +47,16 @@ body{
     display: flex;
 }
 
+
+.job1{
+    color:#B14048;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 52%;
+    margin-top: -32px;
+    display: flex;
+}
+
 .zadacha{
     color:#111010;
     text-decoration: none;
@@ -46,6 +65,17 @@ body{
     margin-top: -30px;
     display: flex;
 }
+
+
+.zadacha1{
+    color:#B14048;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 70%;
+    margin-top: -30px;
+    display: flex;
+}
+
 
 h1{
     font-size: 80px;
@@ -218,11 +248,11 @@ label{
     margin-bottom: 6px;
 }
 
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  input[type="date"],
-  textarea {
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea {
     width: 100%;
     padding: 12px 12px;
     font-size: 16px;
@@ -231,7 +261,7 @@ label{
     background: #fff;
     outline: none;
     box-sizing: border-box;
-  }
+}
 
 .submit {
     display: block;
@@ -247,3 +277,129 @@ label{
 
 
 
+.h1_2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+    
+.field{
+    margin-bottom: 12px;
+}
+    
+input[type="text"]{
+    /* padding: 12px; */
+    font-size: 16px;
+    border: 2px solid var(--border);
+    border-radius: 4px;
+}
+
+.result{
+    margin-top: 12px;
+    padding: 10px;
+}
+
+
+
+
+.passport-sec {
+  position: relative;
+  overflow: hidden;
+  padding-left: 20%;
+}
+
+.passpic {
+  position: absolute;
+  width: 8vw;
+  margin-left: -26.4vw;
+  margin-top: 24vw;
+}
+
+.passport-info p {
+  position: absolute;
+}
+
+.passport-info p:nth-child(1){
+  margin-top: -17vw;
+  margin-left: 13vw;
+}
+
+.passport-info p:nth-child(2){
+  margin-top: -14.1vw;
+  margin-left: 13vw;
+}
+
+.passport-info p:nth-child(3){
+  margin-top: -10vw;
+  margin-left: 13vw;
+}
+
+.translate-bt {
+  font-size: 30px;
+  color: white;
+  background-color: #b0333a;
+  padding: 10px 20px;
+  transition: 0.4s ease;
+  margin-top: 1vw;
+}
+
+.done{
+    width: 40%;
+    display: flex;
+    margin-top: -40%;
+    padding-left: 60%;
+    padding-bottom: 10%;
+}
+
+
+.card {
+    width: 100%;
+    max-width: 520px;
+    padding-left: 30%;
+}
+
+.h1_3 {
+    margin: 0 0 16px;
+    font-size: 30px;
+    color: #1a1a1a;
+}
+    
+    .field {
+      width: 100%;
+      padding: 12px;
+      font-size: 18px;
+      border: 3px solid #a24a53;
+      border-radius: 4px;
+      margin-bottom: 14px;
+      outline: none;
+    }
+
+    .textarea {
+      height: 120px;
+      resize: vertical;
+      line-height: 1.4;
+    }
+    .button {
+      display: inline-block;
+      padding: 14px 20px;
+      font-size: 20px;
+      color: #fff;
+      background: #7a2a2a;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      text-transform: none;
+    }
+    .error {
+      color: #b00020;
+      font-size: 14px;
+      margin-top: -8px;
+      margin-bottom: 8px;
+    }
+
+
+
+
+
+
+
+   

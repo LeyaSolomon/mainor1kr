@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LEO_FLOW</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js1.js"></script>
+    <script src="main.js" defer></script>
 </head>
 <body>
 
@@ -19,12 +19,42 @@
         <ul>
             <li><a href="index.html" class="main">главная</a></li>
             <li><a href="shop.html" class="shop">заказ</a></li>
-            <li><a href="job.html" class="job">отзыв</a></li>
+            <li><a href="job.html" class="job1">отзыв</a></li>
             <li><a href="1002.html" class="zadacha">задача</a></li>
         </ul>
     </div>
 </nav>
 
+
+<main>
+    <section class="passport-sec">
+      <img class="pass" src="./img/pass.jpg" alt="passport">
+      <div class="passport-info">
+        <p id="lastName">Соломонова</p>
+        <p id="firstName">Лея</p>
+        <p>27.10.2006</p>
+       </div>
+      <button id="translate-btn" class="translate-bt">перевести на английский</button>
+    </section>
+
+    <script src="main.js" defer></script>
+</main>
+
+<img class="done" src="./img/done.png">
+
+<form id="reviewForm" class="card" novalidate>
+    <h1 class="h1_3">ОТПРАВЬ ОТЗЫВ</h1>
+
+    <input id="datePurchase" class="field" type="date" required placeholder="дата покупки" />
+
+    <input id="rating" class="field" type="number" min="1" max="5" step="0.1" placeholder="оценка (1-5)" required />
+
+    <textarea id="text" class="field textarea" placeholder="текст отзыва" required></textarea>
+
+    <button type="submit" class="button">отправить форму</button>
+
+    <div id="message" class="error" aria-live="polite" hidden></div>
+  </form>
 
 </body>
 </html>

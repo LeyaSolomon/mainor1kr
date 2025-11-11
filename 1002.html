@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LEO_FLOW</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js1.js"></script>
 </head>
 <body>
 
@@ -20,10 +19,62 @@
             <li><a href="index.html" class="main">главная</a></li>
             <li><a href="shop.html" class="shop">заказ</a></li>
             <li><a href="job.html" class="job">отзыв</a></li>
-            <li><a href="1002.html" class="zadacha">задача</a></li>
+            <li><a href="1002.html" class="zadacha1">задача</a></li>
         </ul>
     </div>
 </nav>
+
+<div class="container">
+    <h1 class="h1_2">1002. Данo вещественное число. Определить, какое это число: положительное, отрицательное, ноль.</h1>
+
+    <div class="field">
+      <input id="number" type="text" placeholder="Введите число" />
+    </div>
+
+    <button id="checkBtn">Определить знак</button>
+
+    <div id="output" class="result" aria-live="polite" hidden></div>
+</div>
+
+<script>
+    (function() {
+      const input = document.getElementById('number');
+      const btn = document.getElementById('checkBtn');
+      const out = document.getElementById('output');
+
+      function show(msg, ok) {
+        out.textContent = msg;
+        out.style.borderColor = '#7a2a2a';
+        out.hidden = false;
+        out.style.background = ok ? '#d7f3d4' : '#f8d7da';
+      }
+
+      btn.addEventListener('click', function() {
+        const val = input.value.trim();
+
+        const num = Number(val);
+
+        if (val === '' || Number.isNaN(num) || !isFinite(num)) {
+          show('Ошибка: введите корректное вещественное число.', false);
+          return;
+        }
+
+        if (num > 0) {
+          show('положительное', true);
+        } else if (num < 0) {
+          show('отрицательное', true);
+        } else {
+          show('ноль', true);
+        }
+      });
+
+      input.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') {
+          btn.click();
+        }
+    });
+    })();
+</script>
 
 
 </body>
