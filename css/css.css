@@ -2,6 +2,11 @@ body{
     background-color: #FBD2D5;
 }
 
+.main_per{
+    width: 8%;
+    display: flex;
+    margin-top: -40px;
+}
 .main{
     color:#111010;
     text-decoration: none;
